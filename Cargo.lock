@@ -13,14 +13,25 @@ dependencies = [
 
 [[package]]
 name = "quickvariant"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
- "quickvariant-macros",
+ "quickvariant-macros 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "quickvariant-macros"
 version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "quickvariant-macros"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6068fa10256fa430c841c8d9a53719c9d95b5f4efee27b9f6992c56c2218e2c1"
 dependencies = [
  "proc-macro2",
  "quote",
