@@ -6,7 +6,6 @@ authors = ["UldorAlberich13 <dotgitattributes@gmail.com>"]
 readme = "README.md"
 license = "MIT"
 repository = "https://github.com/uldor-alberich/quickvariant"
-documentation = "https://docs.rs/quickvariant"
 keywords = [
     "variant",
     "quickvariant",
