@@ -2,6 +2,7 @@
 name = "quickvariant"
 version = "0.1.0"
 edition = "2024"
+description = "C++-style variant library."
 authors = ["UldorAlberich13 <dotgitattributes@gmail.com>"]
 readme = "README.md"
 license = "MIT"
