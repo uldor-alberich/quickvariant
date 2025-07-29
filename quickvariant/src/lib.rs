@@ -12,6 +12,7 @@ use std::collections::HashSet;
 ///
 /// ### `DisallowedType`
 /// This error is returned when attempting to set a type that was not used to create the Variant.
+#[derive(Debug)]
 pub enum ErrorKind {
     InvalidParameters,
     AllocationFailed,
