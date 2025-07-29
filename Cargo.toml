@@ -1,0 +1,3 @@
+[workspace]
+members = ["quickvariant", "quickvariant-macros"]
+resolver = "3"
