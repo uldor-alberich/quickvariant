@@ -3,6 +3,7 @@ This library is designed with reference to C++'s `std::variant`, allowing you to
 
 # Warning
 This library uses unsafe code. Please follow the usage guidelines carefully when using it.
+Rust's enum is extremely powerful, and in most cases, the functionality provided by this crate can be fully replaced by a simple enum.
 
 # Example
 ```rust
